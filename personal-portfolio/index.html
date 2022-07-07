@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="./assets/styles/reset.css">
+  <link type="text/css" rel="stylesheet" href="./assets/styles/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+	<script src="https://kit.fontawesome.com/5bd51f9e0b.js" crossorigin="anonymous"></script>
+  <title>JorgeSoria | Portfolio Website</title>
+</head>
+<body>
+	<!-- Start of my header and navigation bar -->
+	<header>
+		<div class="logo">
+			<img src="./assets/images/logo.png" alt="logo of Jorge Soria">
+		</div>
+		<button class="nav-toggle" aria-label="toggle navigation">
+			<span class="hamburger"></span>
+		</button>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+				<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+				<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Introduction -->
+	<section class="intro" id="home">
+		<h1 class="section__title section__title--intro">
+			Hi, I am <strong>Jorge Soria</strong>
+		</h1>
+		<p class="section__subtitle section__subtitle--intro">front-end dev</p>
+		<img src="./assets/images/jorge-1.png" alt="jorge soria photo" class="intro__img">
+	</section>
+	<!-- End of Introduction Section -->
+
+	<!-- My Services -->
+	<section class="my-services" id="services">
+		<h2 class="section__title section__title--services">What I do</h2>
+		<div class="services">
+			<div class="service">
+				<h3>Design + Development</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim purus diam, vitae eleifend nisi vehicula sed. Pellentesque vel lectus ex. Suspendisse potenti. Morbi ut velit bibendum, tincidunt nisi in, porttitor orci. In in sem felis. Pellentesque id nunc et nisl maximus hendrerit et in enim. Phasellus erat nunc, feugiat non risus quis, tincidunt porta nulla.</p> 
+			</div> <!--service--->
+			<div class="service">
+				<h3>E-commerce</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim purus diam, vitae eleifend nisi vehicula sed. Pellentesque vel lectus ex. Suspendisse potenti. Morbi ut velit bibendum, tincidunt nisi in, porttitor orci. In in sem felis. Pellentesque id nunc et nisl maximus hendrerit et in enim. Phasellus erat nunc, feugiat non risus quis, tincidunt porta nulla.</p> 
+			</div> <!--service--->
+			<div class="service">
+				<h3>Wordpress</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim purus diam, vitae eleifend nisi vehicula sed. Pellentesque vel lectus ex. Suspendisse potenti. Morbi ut velit bibendum, tincidunt nisi in, porttitor orci. In in sem felis. Pellentesque id nunc et nisl maximus hendrerit et in enim. Phasellus erat nunc, feugiat non risus quis, tincidunt porta nulla.</p> 
+			</div> <!--service--->
+		</div> <!--service--->
+
+		<a href="#work" class="btn">See my work</a>
+	</section>
+
+	<!-- About me section -->
+
+	<section class="about-me" id="about">
+		<h2 class="section__title section__title--about">Who I am</h2>
+		<p class="section__subtitle section__subtitle--about">Front-End Dev & Engineer based out of Peru</p>
+		
+		<div class="about-me__body">
+			<p>Nam dictum lectus ut neque interdum, et varius lorem cursus. Quisque feugiat tempor quam, laoreet semper ligula luctus ultricies. Mauris eros ex, lobortis id nisl id, vulputate interdum diam. Ut fringilla orci et nisl molestie, in molestie purus hendrerit. Vestibulum eget elit tortor. Cras convallis odio vitae dui dictum sollicitudin</p>
+			<p>Nam dictum lectus ut neque interdum, et varius lorem cursus. Quisque feugiat tempor quam, laoreet semper ligula luctus ultricies. Mauris eros ex, lobortis id nisl id, vulputate interdum diam. Ut fringilla orci et nisl molestie, in molestie purus hendrerit. Vestibulum eget elit tortor. Cras convallis odio vitae dui dictum sollicitudin</p>
+		</div>
+
+		<img src="./assets/images/jorge-2.jpg" alt="jorge soria second image" class="about-me__img">
+	</section>
+
+	<!-- My work section -->
+	<section class="my-work" id="work">
+		<h2 class="section__title section__title--work">My work</h2>
+		<p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+		<div class="portfolio">
+
+			<!-- Portfolio projects images -->
+			<a href="https://jorgeluissoria.github.io/fcc-tribute-page/" class="portfolio__item" target="_blank">
+				<img src="./assets/images/tribute-page.jpg" alt="" class="portfolio__img">
+			</a>
+
+			<!-- Portfolio projects images -->
+			<a href="https://jorgeluissoria.github.io/encrypt-decrypt-texts/" class="portfolio__item" target="_blank">
+				<img src="./assets/images/encrypter.jpg" alt="" class="portfolio__img">
+			</a>
+
+			<!-- Portfolio projects images -->
+			<a href="https://jorgeluissoria.github.io/fcc-survey-form/" class="portfolio__item" target="_blank">
+				<img src="./assets/images/form.jpg" alt="" class="portfolio__img">
+			</a>
+
+			<!-- Portfolio projects images -->
+			<a href="https://jorgeluissoria.github.io/hangman-game/" class="portfolio__item" target="_blank">
+				<img src="./assets/images/hangman.jpg" alt="" class="portfolio__img">
+			</a>
+
+			<!-- Portfolio projects images -->
+			<a href="https://jorgeluissoria.github.io/fcc-technical-doc/" class="portfolio__item" target="_blank">
+				<img src="./assets/images/js-doc.jpg" alt="" class="portfolio__img">
+			</a>
+
+			<!-- Portfolio projects images -->
+			<a href="https://jorgeluissoria.github.io/fcc-landing-page/" class="portfolio__item" target="_blank">
+				<img src="./assets/images/landing-page.jpg" alt="" class="portfolio__img">
+			</a>
+
+			<!-- Portfolio projects images -->
+			<a href="https://jorgeluissoria.github.io/fcc-lesson-penguin/" class="portfolio__item" target="_blank">
+				<img src="./assets/images/penguin.jpg" alt="" class="portfolio__img">
+			</a>
+
+			<!-- Portfolio projects images -->
+			<a href="https://jorgeluissoria.github.io/fcc-lesson-city-skyline/" class="portfolio__item" target="_blank">
+				<img src="./assets/images/responsive-sky.jpg" alt="" class="portfolio__img">
+			</a>
+
+		</div>		
+	</section>
+
+	<!-- footer -->
+
+	<footer class="footer">
+		<a href="mailto:jorge.luis.soria@outlook.com" class="footer__link">jorge.luis.soria@outlook.com</a>
+		<ul class="social-list">
+			<li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/jorgeluissoria/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+			<li class="social-list__item"><a class="social-list__link" href="https://github.com/JorgeLuisSoria" target="_blank"><i class="fa-brands fa-github-square"></i></a></li>
+			<li class="social-list__item"><a class="social-list__link" href="https://twitter.com/JorgeSoria1802" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>			
+		</ul>
+	</footer>
+	<script src="./assets/scripts/script.js"></script>
+</body>
+</html>
